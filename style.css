@@ -1,0 +1,61 @@
+body{
+  margin: 0%;
+  background-color: grey;
+}
+
+header{
+  background-color: #0a1931;
+  color: white;
+  height: 160px;
+  margin-top: 0%;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+header div{
+  float: left;
+  height: 30%; 
+}
+
+header nav{
+  float: right;
+  height: 30%;
+
+}
+
+header nav ul{
+  list-style: none;
+  
+  
+}
+
+header nav ul li{
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+#first{
+  background-color: azure;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.imgcontainer{
+  display: inline-block;
+  margin-left: 300px;
+}
+
+footer nav ul{
+  list-style: none;
+}
+
+footer nav ul li{
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 20px;
+}
