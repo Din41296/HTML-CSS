@@ -1,7 +1,12 @@
 body{
   margin: 0%;
   background-color: grey;
+  height: 160px;
 }
+
+
+
+
 
 header{
   background-color: #0a1931;
@@ -32,8 +37,8 @@ header nav ul{
   
 }
 
-header nav ul li{
-  text-decoration: none;
+header nav ul li {
+  
   display: inline-block;
   
 }
@@ -49,13 +54,23 @@ header nav ul li{
   margin-left: 300px;
 }
 
-footer nav ul{
-  list-style: none;
+footer{
+  background-color: grey;
+  color: white;
 }
 
-footer nav ul li{
-  text-decoration: none;
+footer nav ul{
+  list-style: none;
+  background-color: #0a1931;
+  color: white;
+  
+}
+}
+
+footer nav ul li a{
+  
   display: inline-block;
   margin-left: 500px;
   margin-top: 20px;
+  
 }
