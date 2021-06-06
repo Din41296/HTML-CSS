@@ -23,7 +23,7 @@ FavBook1();
 
 
 
-var y = prompt("how many times do you want to see books")
+var y = prompt("How many times do you want to see books?")
 
 var Books;
 var Books = function () {
