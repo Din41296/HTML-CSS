@@ -1,18 +1,13 @@
 body{
   margin: 0%;
   background-color: grey;
-  height: 160px;
+  
 }
-
-
-
-
-
 header{
   background-color: #0a1931;
   color: white;
   height: 160px;
-  margin-top: 0%;
+  
   
 }
 
@@ -74,3 +69,8 @@ footer nav ul li a{
   margin-top: 20px;
   
 }
+
+
+
+
+

@@ -2,19 +2,39 @@ var userName = "Dina Muasher";
 
 document.write("<p> I wish you were excited in my website " + "Dina Muasher </p>");
 
-alert("Welcome to your second home");
+alert("Welcome ");
 
-var  Book1 = "Fiction";
-var Book2 = "Adventure";
-var Book3 = "Historical";
 
-var FavBook = prompt("Kindly write your favorite book");
-if(FavBook == Book1) {
-  alert("Press on Fiction");
-} else if(FavBook != Book3) {
-  alert("Press on Adventure");
 
-} else {
-  alert("Press on Historical")
+var FavBook = prompt("What's your Favorite Book?")
+
+
+function FavBook1() {
+  while (FavBook != "Fiction" && FavBook != "Historical" && FavBook != "Adventure") {
+    FavBook = prompt("Please enter on of these: Historical, Adventure, Fiction");
+  }
+
+
 }
- 
+
+FavBook1();
+
+
+
+
+
+var y = prompt("how many times do you want to see books")
+
+var Books;
+var Books = function () {
+  
+
+  for (var i = 0; i < 4; i++) {
+
+    document.write( "<img src= 'https://static.vecteezy.com/ti/vecteur-libre/t2/263066-icone-de-livre-vectoriel.jpg' />")
+    console.log(i)
+
+  }
+  return Books;
+}
+Books();
